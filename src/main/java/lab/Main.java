@@ -12,6 +12,8 @@ public class Main {
     public static void main (String [ ] args) {
         System.out.println("===INICIO====");
         Tax tax = new Tax();
+        tax.addTax("PE",0.18);
+        tax.addTax("BR",0.12);
         
         ManageDemand mg = new ManageDemand(tax);
 
@@ -20,7 +22,12 @@ public class Main {
         double resultFirst = mg.calculateTotal(testOrders);
         System.out.println(String.format("RESULTADO TOTAL 1 => %s", resultFirst));
 
-        double resultSecond = mg.calculateTotalForWithAdditionalByCountry(testOrders, 0.10, 0.20, 0.30);
+        Tax additional = new Tax();
+        additional.addTax("CO",0.1);
+        additional.addTax("PE",0.2);
+        additional.addTax("BR",0.3);
+
+        double resultSecond = mg.calculateTotalForWithAdditionalByCountry(testOrders, additional);
         System.out.println(String.format("RESULTADO TOTAL 2 => %s", resultSecond));
     }
 
