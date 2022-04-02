@@ -6,11 +6,12 @@ import lab.demand.Order;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class Main {
-
+    private static final Logger logger = Logger.getLogger( Main.class.getName() );
     public static void main (String [ ] args) {
-        System.out.println("===INICIO====");
+        logger.info("===INICIO====");
         Tax tax = new Tax();
         tax.addTax("PE",0.18);
         tax.addTax("BR",0.12);
@@ -20,7 +21,7 @@ public class Main {
         List<Order> testOrders = buildSampleOrders();
         
         double resultFirst = mg.calculateTotal(testOrders);
-        System.out.println(String.format("RESULTADO TOTAL 1 => %s", resultFirst));
+        logger.info(String.format("RESULTADO TOTAL 1 => %s", resultFirst));
 
         Tax additional = new Tax();
         additional.addTax("CO",0.1);
@@ -28,11 +29,11 @@ public class Main {
         additional.addTax("BR",0.3);
 
         double resultSecond = mg.calculateTotalForWithAdditionalByCountry(testOrders, additional);
-        System.out.println(String.format("RESULTADO TOTAL 2 => %s", resultSecond));
+        logger.info(String.format("RESULTADO TOTAL 2 => %s", resultSecond));
     }
 
     private static List<Order> buildSampleOrders() {
-        List<Order> testOrders = new ArrayList<Order>();
+        List<Order> testOrders = new ArrayList<>();
         testOrders.add(new Order("PE", 10L));
         testOrders.add(new Order("PE", 20L));
         testOrders.add(new Order("CO", 10L));

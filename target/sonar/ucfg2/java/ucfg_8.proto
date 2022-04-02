@@ -1,24 +1,0 @@
-
-9lab.demand.ManageDemand#calculateTotal(Ljava/util/List;)Dd
-ZC:/Users/Anthony/Desktop/repos/lab-03-a-warleon/src/main/java/lab/demand/ManageDemand.java ( "1*ƒ
-1d
-ZC:/Users/Anthony/Desktop/repos/lab-03-a-warleon/src/main/java/lab/demand/ManageDemand.java (7«
-¨
-d
-ZC:/Users/Anthony/Desktop/repos/lab-03-a-warleon/src/main/java/lab/demand/ManageDemand.java@ (C
-%0lab.demand.Tax"__id*$*"
-lab.demand.ManageDemand"
-taxùö
-d
-ZC:/Users/Anthony/Desktop/repos/lab-03-a-warleon/src/main/java/lab/demand/ManageDemand.java (D
-%1double"clab.demand.ManageDemand#calculateTotalForWithAdditionalByCountry(Ljava/util/List;Llab/demand/Tax;)D*
-lab.demand.ManageDemand*
-
-ordersjava.util.List*
-
-%0lab.demand.Tax2JcalculateTotalForWithAdditionalByCountry(Ljava/util/List;Llab/demand/Tax;)"n
-d
-ZC:/Users/Anthony/Desktop/repos/lab-03-a-warleon/src/main/java/lab/demand/ManageDemand.java (E
-"":
-ordersjava.util.ListB
-lab.demand.ManageDemand
