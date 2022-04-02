@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -120,6 +120,16 @@
                         <a href="#" panel-name="suite-Surefire_suite" title="lab.ManageDemandTest" class="method navigator-link" hash-for-method="test_AllOrdersFromPeru">test_AllOrdersFromPeru</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="lab.MainTest" class="method navigator-link" hash-for-method="test_Main">test_Main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="lab.OrderTest" class="method navigator-link" hash-for-method="test_Order">test_Order</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
@@ -132,6 +142,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lab.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Order">
+                  </a> <!-- test_Order -->
+                  <span class="method-name">test_Order</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lab.MainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Main">
+                  </a> <!-- test_Main -->
+                  <span class="method-name">test_Main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">lab.TaxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddCalcTax">
+                  </a> <!-- testAddCalcTax -->
+                  <span class="method-name">testAddCalcTax</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,21 +216,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">lab.TaxTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAddCalcTax">
-                  </a> <!-- testAddCalcTax -->
-                  <span class="method-name">testAddCalcTax</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -187,7 +227,9 @@
 &lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;lab.MainTest&quot;/&gt;
       &lt;class name=&quot;lab.ManageDemandTest&quot;/&gt;
+      &lt;class name=&quot;lab.OrderTest&quot;/&gt;
       &lt;class name=&quot;lab.TaxTest&quot;/&gt;
       &lt;class name=&quot;lab.util.TestUtil&quot;/&gt;
     &lt;/classes&gt;
@@ -203,7 +245,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Surefire test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,28 +271,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_AllOrdersFromColombia')
-data.setCell(0, 2, 'lab.ManageDemandTest')
-data.setCell(0, 3, 11);
+data.setCell(0, 1, 'test_Main')
+data.setCell(0, 2, 'lab.MainTest')
+data.setCell(0, 3, 272);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_AllOrdersFromPeru')
+data.setCell(1, 1, 'test_AllOrdersFromColombia')
 data.setCell(1, 2, 'lab.ManageDemandTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testAddCalcTax')
-data.setCell(2, 2, 'lab.TaxTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'test_Order')
+data.setCell(2, 2, 'lab.OrderTest')
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'test_AllOrdersFromOtherCountries')
 data.setCell(3, 2, 'lab.ManageDemandTest')
 data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_AllOrdersFromPeru')
+data.setCell(4, 2, 'lab.ManageDemandTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAddCalcTax')
+data.setCell(5, 2, 'lab.TaxTest')
+data.setCell(5, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 ms</span>
+              <span class="suite-total-time">Total running time: 289 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -276,29 +326,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">lab.MainTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Main</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">lab.ManageDemandTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">303 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_AllOrdersFromColombia</span>
-                <span class="method-start">45 ms</span>
+                <span class="method-start">312 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_AllOrdersFromOtherCountries</span>
-                <span class="method-start">60 ms</span>
+                <span class="method-start">334 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_AllOrdersFromPeru</span>
-                <span class="method-start">61 ms</span>
+                <span class="method-start">335 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">lab.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Order</span>
+                <span class="method-start">337 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">lab.TaxTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testAddCalcTax</span>
-                <span class="method-start">64 ms</span>
+                <span class="method-start">339 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
