@@ -3,5 +3,5 @@ projectKey=cs2901-2022-1-Ingenieria-de-Software_lab-03-a-warleon
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.27985
 dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2022-1-Ingenieria-de-Software_lab-03-a-warleon
-ceTaskId=AX_obvoLmGdeDwm3RyWz
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX_obvoLmGdeDwm3RyWz
+ceTaskId=AX_ocTkw5xg41FafWn5R
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX_ocTkw5xg41FafWn5R

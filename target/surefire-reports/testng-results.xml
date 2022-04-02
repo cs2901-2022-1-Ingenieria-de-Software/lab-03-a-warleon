@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-01T22:59:52 COT" name="Surefire suite" finished-at="2022-04-01T22:59:52 COT" duration-ms="489">
+  <suite started-at="2022-04-01T23:02:39 COT" name="Surefire suite" finished-at="2022-04-01T23:02:39 COT" duration-ms="187">
     <groups>
     </groups>
-    <test started-at="2022-04-01T22:59:52 COT" name="Surefire test" finished-at="2022-04-01T22:59:52 COT" duration-ms="489">
+    <test started-at="2022-04-01T23:02:39 COT" name="Surefire test" finished-at="2022-04-01T23:02:39 COT" duration-ms="187">
       <class name="lab.MainTest">
-        <test-method signature="test_Main()[pri:0, instance:lab.MainTest@468dda3e]" started-at="2022-04-01T22:59:52 COT" name="test_Main" finished-at="2022-04-01T22:59:52 COT" duration-ms="272" status="PASS">
+        <test-method signature="test_Main()[pri:0, instance:lab.MainTest@5527b211]" started-at="2022-04-01T23:02:39 COT" name="test_Main" finished-at="2022-04-01T23:02:39 COT" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Main -->
       </class> <!-- lab.MainTest -->
       <class name="lab.TaxTest">
-        <test-method signature="testAddCalcTax()[pri:0, instance:lab.TaxTest@78010562]" started-at="2022-04-01T22:59:52 COT" name="testAddCalcTax" finished-at="2022-04-01T22:59:52 COT" duration-ms="0" status="PASS">
+        <test-method signature="testAddCalcTax()[pri:0, instance:lab.TaxTest@50756c76]" started-at="2022-04-01T23:02:39 COT" name="testAddCalcTax" finished-at="2022-04-01T23:02:39 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddCalcTax -->
       </class> <!-- lab.TaxTest -->
       <class name="lab.ManageDemandTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:lab.ManageDemandTest@5527b211]" started-at="2022-04-01T22:59:52 COT" name="setup" finished-at="2022-04-01T22:59:52 COT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_AllOrdersFromColombia()[pri:0, instance:lab.ManageDemandTest@5527b211]" started-at="2022-04-01T22:59:52 COT" name="test_AllOrdersFromColombia" finished-at="2022-04-01T22:59:52 COT" duration-ms="16" status="PASS">
+        <test-method signature="test_AllOrdersFromColombia()[pri:0, instance:lab.ManageDemandTest@54cf7c6a]" started-at="2022-04-01T23:02:39 COT" name="test_AllOrdersFromColombia" finished-at="2022-04-01T23:02:39 COT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AllOrdersFromColombia -->
-        <test-method signature="test_AllOrdersFromOtherCountries()[pri:0, instance:lab.ManageDemandTest@5527b211]" started-at="2022-04-01T22:59:52 COT" name="test_AllOrdersFromOtherCountries" finished-at="2022-04-01T22:59:52 COT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:lab.ManageDemandTest@54cf7c6a]" started-at="2022-04-01T23:02:39 COT" name="setup" finished-at="2022-04-01T23:02:39 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_AllOrdersFromOtherCountries -->
-        <test-method signature="test_AllOrdersFromPeru()[pri:0, instance:lab.ManageDemandTest@5527b211]" started-at="2022-04-01T22:59:52 COT" name="test_AllOrdersFromPeru" finished-at="2022-04-01T22:59:52 COT" duration-ms="0" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test_AllOrdersFromPeru()[pri:0, instance:lab.ManageDemandTest@54cf7c6a]" started-at="2022-04-01T23:02:39 COT" name="test_AllOrdersFromPeru" finished-at="2022-04-01T23:02:39 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AllOrdersFromPeru -->
+        <test-method signature="test_AllOrdersFromOtherCountries()[pri:0, instance:lab.ManageDemandTest@54cf7c6a]" started-at="2022-04-01T23:02:39 COT" name="test_AllOrdersFromOtherCountries" finished-at="2022-04-01T23:02:39 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AllOrdersFromOtherCountries -->
       </class> <!-- lab.ManageDemandTest -->
       <class name="lab.OrderTest">
-        <test-method signature="test_Order()[pri:0, instance:lab.OrderTest@54cf7c6a]" started-at="2022-04-01T22:59:52 COT" name="test_Order" finished-at="2022-04-01T22:59:52 COT" duration-ms="1" status="PASS">
+        <test-method signature="test_Order()[pri:0, instance:lab.OrderTest@78010562]" started-at="2022-04-01T23:02:39 COT" name="test_Order" finished-at="2022-04-01T23:02:39 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Order -->
