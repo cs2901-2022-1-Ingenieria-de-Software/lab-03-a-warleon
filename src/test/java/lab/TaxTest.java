@@ -13,5 +13,6 @@ public class TaxTest {
         Assert.assertEquals(taxes.calculateTax("hola"), 0.5);
         Assert.assertEquals(taxes.calculateTax(""), 0.0);
         Assert.assertEquals(taxes.calculateTax("asd"), 0.0);
+        Assert.assertEquals(taxes.calculateTax(null), 0.0);
     }
 }
